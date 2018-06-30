@@ -59,11 +59,11 @@
 									<div class="liPlace"></div>
 									<div class="musicInfo">
 										<div class="name">
-											<a class="playitems" data-img="img/play/musicBg.jpg" data-title="青花瓷" data-singer="周杰伦" 
-												data-album="我很忙" data-src="mp3/01.mp3" href="javascript:void(0);" title="青花瓷">青花瓷</a>
+											<a class="playitems" data-img="img/play/20170412051540269429.jpg" data-title="Welcome to New York" data-singer="Club Stylers"
+												data-album="我很忙" data-src="mp3/Club Stylers - Welcome to New York.mp3" href="javascript:void(0);" title="Welcome to New York">Welcome to New York</a>
 										</div>
-										<div class="album" title="我很忙">我很忙</div>
-										<div class="artist" title="周杰伦">周杰伦</div>
+										<div class="album" title="Essential New Urban Mix">Essential New Urban Mix</div>
+										<div class="artist" title="Club Stylers">Club Stylers</div>
 									</div>
 									<div class="listRight">
 										<div class="musicTools">
