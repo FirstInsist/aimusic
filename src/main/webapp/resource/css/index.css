@@ -1,0 +1,255 @@
+.warp{width:100%;background:#fff;}
+/*这个是头部选择底部的小图标*/
+.Parrow{width: 12px;height: 6px;background: url(../img/nav_arrow.png) no-repeat;position: absolute;bottom: 0px;*bottom:0px;left: 50%;margin-left: -3px;}
+
+/*------------------------------------------头部和底部----------------------------------------------*/
+/* S 主导航 */
+.warp .w_header{width:100%;height:68px;background:#0FF;}
+.warp .w_header .h_box{height:68px;margin: 0 auto;}
+.warp .w_header .h_box .logo{display: block;float: left;line-height: 68px;}
+.warp .w_header .h_box .logo img{display: block ;float:left;border: 0;margin-top: 10px;}
+.warp .w_header .h_box .logo span{color: #F30;font-size: 32px;font-family: "楷体";font-weight: bold;}
+.warp .w_header .h_box .h_nav{float: left;margin-left:20px;}
+.warp .w_header .h_box .h_nav ul li{float: left;}
+.warp .w_header .h_box .h_nav ul li a{display:block;float:left;position: relative;font-family: "楷体";font-size: 28px;padding: 18px 20px;color:#fff;}
+.warp .w_header .h_box .h_nav ul li a.active{color: #003535;}
+.warp .w_header .h_box .h_text ul li{float: right;}
+.warp .w_header .h_box .h_text ul li a{display:block;font-size: 14px;padding: 24px 10px;color:#03ABAB;}
+.warp .w_header .h_box .h_text ul li a:hover{color: #003535;}
+/* E 主导航 */
+
+/* S 副导航 */
+.warp .w_nav{width:100%;height: 48px;background: #F9FFFF;margin-bottom:10px;}
+.warp .w_nav .n_box{height: 48px;margin: 0 auto;}
+.warp .w_nav ul li{float: left;}
+.warp .w_nav ul li.hide{display: none;}
+.warp .w_nav ul li a{display:block;float:left;font-size: 14px;padding: 15px 15px;color: #03ABAB;}
+.warp .w_nav ul li a:hover{color:#003535;}
+.warp .w_nav ul li a.active{color:#003535;}
+/* E 副导航*/
+/* S 底部 */
+.warp .w_footer{width:100%;height:100px;margin-top:10px;background: #FDFFFF;}
+.warp .w_footer a{color: #666;}
+.warp .w_footer a:hover{color:#111;}
+
+.w_footer .friendLink{margin:10px auto;}
+.w_footer .friendLink .f_title{border-bottom: 1px dashed #CCC;padding-bottom: 5px;}
+.w_footer .friendLink .f_title span{font-size: 16px;}
+.w_footer .friendLink .f_title a{}
+.w_footer .friendLink .f_list{margin: 10px 0;border-bottom: 1px dashed #CCC;padding-bottom: 10px;}
+.w_footer .friendLink .f_list a{display: block;float: left;margin: 5px 0;padding:0 8px;border-right: 1px solid #ccc;}
+.friendMore{display: block;float: right;}
+.w_footer .aboutUs{margin:10px auto;}
+.w_footer .aboutUs p{text-align: center;}
+/* E 底部*/
+/*------------------------------------------头部和底部----------------------------------------------*/
+
+/*------------------------------------------首页----------------------------------------------*/
+
+.warp .w_content{height:1060px;margin:0 auto;background:#FDFFFF;padding: 10px;}
+.warp .w_content .c_warpL{width: 720px;height: 100%;float: left;}
+
+/* S banner图集 */
+.warp .w_content .c_warpL #bannerbox{margin: 10px;position:relative;overflow:hidden;width: 700px;height: 280px;}
+.warp .w_content .c_warpL #bannerbox ul{ width:700px;position: relative;}
+.warp .w_content .c_warpL #bannerbox ul li{width:700px;}
+.warp .w_content .c_warpL #bannerbox ul li img{width:700px;height:280px;}
+.warp .w_content .c_warpL #bannerbox ol{z-index:2; width:120px; position:absolute;right:10px; bottom:10px;}
+.warp .w_content .c_warpL #bannerbox ol li{ width:20px;height:20px; float:left;margin:0 2px; display:inline; background:#fff; color:#000; line-height:20px; text-align:center;border-radius:50%;}
+.warp .w_content .c_warpL #bannerbox ol .active{ background:#22B4EB; color:#fff;}
+.warp .w_content .c_warpL #bannerbox .bannerPre{opacity:0.3;display:block;left:0;top:105px;background: url(../img/mod_focus_show.png) no-repeat;position: absolute;z-index: 9;width: 35px;height: 70px;}
+.warp .w_content .c_warpL #bannerbox .bannerNext{opacity:0.3;display:block;right:0;top:105px;background: url(../img/mod_focus_show.png) no-repeat -35px 0;position: absolute;z-index: 9;width: 35px;height: 70px;}
+.warp .w_content .c_warpL #bannerbox .bannerPre:hover{opacity:0.6;}
+.warp .w_content .c_warpL #bannerbox .bannerNext:hover{opacity:0.6;}
+/* E banner图集 */
+
+/* S 新歌-热歌推荐 */
+.mis{margin: 10px;width:330px;float: left;}
+.newMis{border-right: 1px solid #8F8F8F;}
+.hotMis{float:right;}
+.mis .m_title{}
+.mis .m_title ul li{float: left;margin-right: 10px;line-height: 30px;}
+.mis .m_title h2{color: #003535;}
+.mis .m_list{}
+.mis .m_list ol li{padding: 5px 0;}
+.mis .m_list ol li h5 span{display: inline-block;}
+.mis .m_list ol li h5 span a{display: inline-block;}
+.mis .m_list ol li h5 .music_singer{background: url(../img/delimiter.png) no-repeat left center;}
+.mis .m_list ol li h5 span.music_name a{color: #03ABAB;}
+.mis .m_list ol li h5 span.music_singer a{color: #888;margin-left: 8px;}
+.mis .m_list ol li:hover h5 span.music_name a{color: #003535;}
+.mis .m_list ol li:hover h5 span.music_singer a{color: #000;}
+.m_play{display: block;font-size: 20px;}
+.m_add{display: block;margin-top:3px;font-size: 21px;}
+/* E 新歌-热歌推荐 */
+
+/* S 精选集*/
+.specialMis{margin: 10px;}
+.specialMis .m_title{}
+.specialMis .m_title h2{float: left;color: #003535;}
+.specialMis .m_title span{display: inline-block;margin: 5px;}
+.specialMis .m_title .m_mo{display: inline-block;color: #888;}
+.specialMis .m_list{}
+.specialMis .m_list ul li{float: left;margin-right: 14px;margin-top: 10px;}
+.specialMis .m_list ul li.mr0{margin-right: 0;}
+.specialMis .m_list ul li .m_desc a{color:#03ABAB;}
+.specialMis .m_list ul li .m_desc a:hover{color:#003535;}
+/* E 精选集*/
+
+.warp .w_content .c_warpR{float: right;width: 280px;height: 100%;}
+.warp .w_content .c_warpR a{color: #D899FA;}
+.warp .w_content .c_warpR a:hover{color: #6F019D;}
+
+/* S 登录模块*/
+.warp .w_content .c_warpR .c_logn{background: url(../img/bb.png) no-repeat;margin:10px;height: 281px;}
+.warp .w_content .c_warpR .c_logn .l_qlogn{width: 100%;height: 67px;border-bottom: 1px solid #FDFDFD;}
+.warp .w_content .c_warpR .c_logn .l_qlogn span{display: block;float: left;padding:25px 20px;color: #fff;}
+.warp .w_content .c_warpR .c_logn .l_qlogn ul{float: right;margin: 15px 20px;}
+.warp .w_content .c_warpR .c_logn .l_qlogn ul li{float: left;}
+.warp .w_content .c_warpR .c_logn .l_qlogn ul li a{display: block;width:36px;height: 36px;border-radius: 50%;}
+.warp .w_content .c_warpR .c_logn .l_qlogn ul li .weibo{background: #E63E32;margin-right: 10px;}
+.warp .w_content .c_warpR .c_logn .l_qlogn ul li .qq{background: #3595CC;}
+.warp .w_content .c_warpR .c_logn .l_qlogn ul li .icon{display: block;width: 32px;height: 32px;margin: 0 auto;background: url(../img/unlogin_icon.png) no-repeat;}
+.warp .w_content .c_warpR .c_logn .l_mlogin{width: 100%;height: auto;}
+.warp .w_content .c_warpR .c_logn .l_mlogin a{color:#fff;display: block;float: left;margin: 10px 20px;padding: 10px 20px;box-shadow: 1px 1px 1px 1px #000;border-radius: 3px;}
+.warp .w_content .c_warpR .c_logn .l_mlogin a:hover{color: #003535;}
+.warp .w_content .c_warpR .c_logn .l_mlogin .ml{}
+.warp .w_content .c_warpR .c_logn .l_mlogin .mz{float: right;}
+.warp .w_content .c_warpR .c_logn .l_wx img{width: 120px;height: 120px;display: block;margin: 0 auto;}
+.warp .w_content .c_warpR .c_logn .l_wx span{display: block;text-align: center;padding: 5px;color: #fff;}
+/* E 登录模块*/
+
+/* S 排行榜*/
+.warp .w_content .c_warpR .rankMis{margin:10px;width: 260px;}
+.warp .w_content .c_warpR .rankMis .m_title ul li h2{font-size: 16px;}
+.warp .w_content .c_warpR .rankMis .m_list{}
+.warp .w_content .c_warpR .rankMis .m_list ol li{position: relative;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .rank_num_top{display:block;float: left;color: red;vertical-align:top;font-size: 18px;width:40px;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .rank_num{display:block;width:40px;color:#ccc;float: left;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .rank_list_top{display: block;float: right;width: 220px;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .rank_list_top img{display: block;float: left;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .rank_list_top .music_name{display: block;float: left;margin-left: 5px;width: 160px;overflow: hidden;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .music_name{display: block;float: left;width: 220px;overflow: hidden;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .music_singer{display: block;position: absolute;right: 0;bottom: 5px;}
+.warp .w_content .c_warpR .rankMis .m_list ol li .music_singer a{color:#ccc;}
+/* E 排行榜*/
+
+/* S 热门歌手 */
+.hotSinger{margin: 10px;}
+.hotSinger .s_title h2{float: left;}
+.hotSinger .s_title span{display: inline-block;margin: 5px;}
+.hotSinger .s_title a{display: inline-block;}
+.hotSinger .s_list{border-bottom: 1px dashed #ccc;padding-bottom: 20px;}
+.hotSinger .s_list ul li{float: left;margin-top: 10px;margin-right: 25px;}
+.hotSinger .s_list ul li.mr0{margin-right: 0;}
+.hotSinger .s_list ul li .sin_desc a{display: block;text-align: center;}
+.hotSinger .s_list ul li .sin_desc a span{}
+.hotSinger .sin_mo{margin-top: 10px;}
+.hotSinger .sin_mo ul li{float: left;margin-right: 46px;margin-top: 10px;}
+.hotSinger .sin_mo ul li.mr0{margin-right: 0;}
+/* E 热门歌手 */
+
+/*------------------------------------------首页----------------------------------------------*/
+
+/*------------------------------------------专辑列表页----------------------------------------------*/
+/* S 专辑首页*/
+.warp .w_album{height: 1200px;}
+/* S 专辑筛选*/
+.warp .w_content .choosebox{width: 100%;}
+.warp .w_content .choosebox .choo_title{width: 100%;height:24px;line-height: 24px;font-size: 18px;padding-bottom:10px;border-bottom: 1px solid #ccc;;}
+.warp .w_content .choosebox .li_title{display: block;float: left;padding: 10px 0;width: 100px;font-weight: 900;}
+.warp .w_content .choosebox ul li{float: left;padding: 10px;}
+.warp .w_content .choosebox ul li a{color: #000;}
+/* E 专辑筛选*/
+
+/* S 专辑主要内容*/
+.warp .w_content .albumbox{margin: 10px 0;width: 100%;}
+.warp .w_content .albumbox .sortTag{border-bottom: 1px solid #ccc;padding-bottom: 10px;}
+.warp .w_content .albumbox .sortTag p a{font-size: 14px;color: #000;}
+.warp .w_content .albumbox .albumList{margin: 10px 0;}
+.warp .w_content .albumbox .albumList ul li{float: left;margin:10px 20px 10px 0;}
+.warp .w_content .albumbox .albumList ul li.mr0{margin-right: 0;}
+.warp .w_content .albumbox .albumList ul li a{color: #666;display: block;width: 150px;}
+/* E 专辑主要内容*/
+
+/* S 专辑分页*/
+.warp .w_content .albumPage{margin: 20px;text-align: center;}
+/* E 专辑分页*/
+/* E 专辑首页*/
+/*------------------------------------------专辑列表页----------------------------------------------*/
+
+/*------------------------------------------专辑详情页----------------------------------------------*/
+.w_content .album_del_left{float:left;margin: 10px 0;width: 700px;}
+/* S 专辑的详细信息*/
+.w_content .album_del_left .al_del_info{margin-bottom: 10px;}
+.w_content .album_del_left .al_del_info .al_del_pic{float: left;margin-right: 20px;}
+.w_content .album_del_left .al_del_info .deltailbox{width: 380px;height: 300px;float: left;}
+.w_content .album_del_left .al_del_info .deltailbox .al_del_text{float: left;}
+.w_content .album_del_left .al_del_info .deltailbox .music_counts{float: right;}
+.w_content .album_del_left .al_del_info .deltailbox .music_counts ul li{float: left;margin: 0 10px;}
+.w_content .album_del_left .al_del_info .deltailbox .album_rank{float: right;width:210px}
+.w_content .album_del_left .al_del_info .deltailbox .star_list{float: right;}
+/* E 专辑的详细信息*/
+
+/* S 专辑的描述 */
+.w_content .album_del_left .al_del_description{margin: 10px 0;}
+/* E 专辑的描述 */
+
+/* S 曲目列表 */
+.w_content .album_del_left .al_del_list{margin:10px 0;}
+.w_content .album_del_left .al_del_list .title{}
+.w_content .album_del_left .al_del_list .title h3{float: left;}
+.w_content .album_del_left .al_del_list .content{}
+.w_content .album_del_left .al_del_list .content p{}
+.w_content .album_del_left .al_del_list .content .divsonglist{}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li{}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li input{display: block;float: left;}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .music_name{float: left;}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .album_name{float: left;}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .count{float: left;}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .play_time{float: left;}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .list_cp{float: left;display: none;}
+
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .music_name .txt a{display:block;margin:0 50px 0 10px;}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .music_name .icon{}
+.w_content .album_del_left .al_del_list .content .divsonglist ol li .album_name a{display:block;margin-right:50px;}
+/* E 曲目列表 */
+
+/* S 评论 */
+.w_content .album_del_left .comments_wall{margin-top: 10px;}
+.w_content .album_del_left .comments_wall h3{}
+.contentbox{margin:50px auto;border-radius:4px;height:150px;border:1px solid #eaeaea;background:#fff;overflow:hidden;}
+.t_content{overflow:auto;height:88px;width:98%;border:none;font-size:14px;color:#999;padding:10px;font-family:"微软雅黑";outline:none;}
+.btn{background:#F2C5C3;color:#fff;margin-right:20px;padding:5px 10px;border-radius:4px;}
+.btn:hover{background:#DD5862;transition:all 1s ease;}
+.editorbtn{height:42px;background:#f2f2f2;line-height:42px;padding-left:20px;color:#888}
+.comment-list{margin:0 auto;}
+.comment-list .item{border-bottom:1px solid #e5e5e5;height:100%;width:100%;margin-bottom:25px;padding-bottom:20px;}
+.comment-list .avatar-wrapper{display:block;float:left;overflow:hidden;padding:5px 6px 0px 0px}
+.comment-list .avatar{height:32px;width:32px;border-radius:3px;}
+.comment-list .item-wrapper{margin-left:38px;height:100%;}
+.comment-list .username{font-size:12px;color:#dd5862;}
+.comment-list .comment-ct{margin:4px 0 18px;}
+.comment-list .comment-ct{margin:4px 0 18px;}
+/* E 评论 */
+
+.w_content .album_del_right{float:right;margin: 10px 0;width: 270px;}
+/* S 听过这张专辑的人*/
+.w_content .album_del_right .al_user_list{}
+.w_content .album_del_right .al_user_list .title{}
+.w_content .album_del_right .al_user_list .content{}
+.w_content .album_del_right .al_user_list .content ul li{float: left;margin:10px 20px 10px 0;}
+.w_content .album_del_right .al_user_list .content ul li.mr0{margin-right: 0;}
+/* E 听过这张专辑的人*/
+
+/* S TA的其他专辑*/
+.w_content .album_del_right .other_album{}
+.w_content .album_del_right .other_album .title{float: left;}
+.w_content .album_del_right .other_album .al_more{float: left;}
+.w_content .album_del_right .other_album .content ul li{margin: 10px 0;}
+.w_content .album_del_right .other_album .content ul li .al_other_img{display: block;float: left;margin-right: 10px;}
+.w_content .album_del_right .other_album .content ul li  .al_other_title{display: inline-block;}
+.w_content .album_del_right .other_album .content ul li  .al_other_st{display: inline-block;}
+.w_content .album_del_right .other_album .content ul li  .al_other_year{display: block;}
+/* E TA的其他专辑*/
+/*------------------------------------------专辑详情页----------------------------------------------*/

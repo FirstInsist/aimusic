@@ -1,0 +1,208 @@
+.musicWarp{width: 100%;height:100%;position: relative;top: 0;left: 0;}
+			
+/* S 头部 */
+.musicWarp .mw_header{width: 100%;height: 56px;position: fixed;top: 0;left: 0;z-index: 9;}
+.musicWarp .mw_header .header_background{width: 100%;height: 56px;background: #fff;position: fixed;top: 0;left: 0;z-index: 1;}
+.musicWarp .mw_header .mw_h_box{width: 98%;height: 46px;margin: 0 auto;position:relative;top:5px;z-index: 2;}
+.musicWarp .mw_header .mw_h_box .mw_h_logo{display: block;float:left;color: #00FFFB;}
+.musicWarp .mw_header .mw_h_box .mw_h_logo img{display:block;float: left;}
+.musicWarp .mw_header .mw_h_box .mw_h_logo span{display: block;float: left;font-size: 32px;font-family: "楷体";margin-top: 5px;}
+
+.musicWarp .mw_header .mw_h_box .mw_h_login{float: right;}
+.musicWarp .mw_header .mw_h_box .mw_h_login ul li{float: left;}
+.musicWarp .mw_header .mw_h_box .mw_h_login ul li a{display:block;color: #fff;padding: 15px;}
+/* E 头部  */
+
+/* S 左边固定的bar */
+.musicWarp .mw_bar{width: 65px;height:100%;position: fixed;top:56px;z-index: 8;}
+.musicWarp .mw_bar .mw_bar_background{background: #fff;width: 65px;height:100%;position: absolute;top:0;left:0;z-index: 1;}
+.musicWarp .mw_bar ul li{padding: 30px 16px;position: relative;top: 0;left: 0;z-index:2;}
+.musicWarp .mw_bar ul li:hover{}
+.musicWarp .mw_bar ul li span{display: block;width: 30px;height:30px;background: url(../img/play/iconBar.png) no-repeat;}
+.musicWarp .mw_bar ul li span.bar_local{background-position:-10px -10px ;}
+.musicWarp .mw_bar ul li span.bar_network{background-position:-47px -10px ;}
+.musicWarp .mw_bar ul li span.bar_download{background-position:-83px -10px ;}
+
+.musicWarp .mw_bar ul li span.bar_local_active{background-position:-7px -37px ;}
+.musicWarp .mw_bar ul li span.bar_network_active{background-position:-45px -38px;}
+.musicWarp .mw_bar ul li span.bar_download_active{background-position:-82px -40px;}
+/* E 左边固定的bar */
+
+/* S 主要内容 */
+.musicWarp .mw_content{width: 100%;height: 100%;position: fixed;left: 65px;top:56px;}
+
+/* S 自定义滚动条 */
+.bar{position:absolute;width:12px;height:100%;background:#fff;left:378px;border-radius:5px;z-index: 2;}
+.bar .sbar{width:12px;height:20px;background:#C1C1C0;border-radius:5px;position:absolute;top:0px;right:0px;z-index:4;}
+.bar .cbar{width:12px;height:100%;background:transparent;position:absolute;top:0px;right:0px;z-index:3;}
+/* E 自定义滚动条 */
+
+/* S 播放列表 */
+.musicWarp .mw_content .mw_list{width: 390px;height: 100%;position: absolute;top: 0;left: 0;overflow:hidden;z-index: 1;margin: 10px;border-radius: 5px;}
+
+.listBox{position: relative;padding:12px;border-radius: 5px;}
+.listBox .listPlace{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: #000;border-radius: 5px;}
+.playList p{font-size: 18px;font-weight: bold;display: block;padding: 10px;cursor: default;color: #fff;}
+.playList ul li{height: 35px;line-height: 35px;color:#ccc;font-size: 14px;position: relative;}
+.playList ul li:hover{color: #fff;}
+.playList ul li:hover .liPlace{opacity: 0.5;background: #fff;}
+.playList ul li:hover .musicInfo .name a{color:#fff;}
+.liPlace{position: absolute;width:100%;height: 35px;top: 0;left: 0;z-index: 1;}
+.onplayed{opacity: 0.5;background: #fff;}
+.musicInfo{height: 35px;line-height: 35px;float: left;margin-left: 10px;position: relative;top: 0;left: 0;z-index: 0;}
+.musicInfo .name{float: left;width: 100px;}
+.musicInfo .name a{color:#ccc;}
+.musicInfo .album{float: left;width: 100px;}
+.musicInfo .artist{float: left;width: 100px;}
+
+.listRight{float: left;height: 35px;line-height: 35px;}
+.musicTools{position: absolute;top: 0;z-index: 2;}
+.musicTools .love{position:relative;float:left;display:block;margin:8px 10px 0 0 ;width:19px;height:17px;background:url(../img/play/icon2.png) no-repeat -28px -155px;}
+.musicTools .love:hover{background-position:0 -241px;}
+.musicTools .delete{position:relative;float:left;display:block;margin:10px 10px 0 0 ;width:12px;height:12px;background:url(../img/play/icon.png) no-repeat -19px 0;}
+.musicTools .delete:hover{background-position:-19px -19px;}
+/* E 播放列表 */
+
+/* S 播放列表和歌词直接的按钮 */
+.musicWarp .mw_content .mw_btn{padding: 15px 2px;color: #fff;font-weight:bold;border:1px solid #333;border-radius:2px;position: absolute;top: 0;left: 390px;z-index: 2;background: #000;cursor: pointer;}
+/* E 播放列表和歌词直接的按钮  */
+
+/* S 音乐背景图片 */
+.mw_background{position:fixed;left:0;top:0;z-index:-1;overflow:hidden;width: 100%; height: 100%;}
+.mw_background .mw_background_img{position:fixed;left:0;top:0;z-index:-1;width:100%}
+.mw_background .mw_background_img img{width:100%}
+/* E 音乐背景图片 */
+
+/* S 歌词 */
+.musicWarp .mw_content .mw_lyrics{width:100%;height: 100%;position: absolute;top: 0;overflow: hidden;z-index: 1;}
+.mw_lyrics ul li{text-align: center;color: #fff;}
+/* E 歌词 */
+
+/* E 主要内容 */
+
+/* S 播放器 */
+.mw_player{width: 100%;height: 60px;position: fixed;bottom: 0;z-index: 9;}
+	
+/* S 播放器背景 */
+.mw_player .playerPlace{position:absolute;top:0;left:0;width:100%;height:60px;background:#000;z-index:1;}
+/* E 播放器背景 */
+
+/* S 播放音乐控制台 */
+.mw_player .playerBox{position:relative;z-index:2;width:100%;}
+.mw_player .playerBox .player{width:90%;margin: 0 auto;}
+
+/* S 开关控制台 */
+.mw_player .playerBox .player .open{position:absolute;top:-19px;right:20px;z-index:2;width:56px;height:19px;background:url(../img/play/icon.png) -105px -81px;cursor:pointer}
+.mw_player .playerBox .player .lock{background-position:-161px -81px}
+/* E 开关控制台 */
+
+/* S 音乐播放控制 */
+.playerLeft{float:left;width:200px;height:60px;}
+.musicControl{float:left;display:inline;margin-left:24px;}
+.musicControl div{float:left;display:inline;margin:10px 0 0 17px;cursor:pointer;}
+.musicControl div.hide{display:none;}
+.musicControl .next,.musicControl .play,.musicControl .prev,.musicControl .pause{width:30px;height:30px;background:url(../img/play/icon.png);}
+.musicControl .prev{margin-top:15px;background-position:-77px -118px}
+.musicControl .play{width:40px;height:40px;background-position:-137px -113px}
+.musicControl .pause{width:40px;height:40px;background-position:-138px -194px}
+.musicControl .next{margin-top:15px;background-position:-207px -118px}
+.musicControl .prev:hover{background-position:-77px -157px}
+.musicControl .play:hover{background-position:-137px -153px}
+.musicControl .pause:hover{background-position:-179px -194px}
+.musicControl .next:hover{background-position:-207px -158px}
+/* E 音乐播放控制 */
+
+/* S 显示音乐信息和播放进度条 */
+.playerMid{position:relative;float:left;overflow:hidden;width:660px;height:60px}
+.playerMid img{float:left;display:inline;margin:10px 20px 0 50px;width:40px;height:40px}
+.playerMid .title{display:block;overflow:hidden;margin-top:9px;color:#fff;text-overflow:ellipsis;white-space:nowrap;font-size:14px;}
+.playerMid #prograssBar{position:relative;float:left;display:inline;margin:10px 10px 0 0;width:440px;height:4px;background:url(../img/play/prograssBg.png);}
+.progress_load{position:absolute;top:0;left:0;z-index:3;width:100%;height:4px;background:transparent;}
+.progress_percent{position:absolute;top:0;left:0;z-index:2;width:0;height:4px;background:#ffcd2d;}
+.progress_btn{position:absolute;top:-3px;width:10px;height:10px;background:url(../img/play/icon.png) 0 -128px}
+
+.playerMid .timer{float:left;display:inline;color:#fff;font-size:12px;margin-top: 5px;}
+.playerMid .line{float:left;display:inline;color:#fff;font-size:12px;margin-top: 5px;}
+.playerMid .surplus_timer{float:left;display:inline;color:#fff;font-size:12px;margin-top: 5px;}
+/* E 显示音乐信息和播放进度条 */
+
+.playerRight{float:left;width:480px;height:60px;}
+/* S 选择音质 */
+.playerRight .qualityBox{position:relative;float:left;display:inline;margin:20px 43px 0 40px;}
+.playerRight .qualityBox .quality{color:#fff;display:block;width:48px;height:20px;background:url(../img/play/icon.png) -53px -88px;text-indent:-9999em}
+.playerRight .qualityBox .quality:hover{background-position:0 -88px}
+/* E 选择音质 */
+
+.controlBox{position:relative;float:left;height:60px;}
+.controlBox div{float:left}
+
+/* S 喜欢 */
+.controlBox .love{position:relative;float:left;display:block;margin:20px 19px 0 0;width:19px;height:17px;background:url(../img/play/icon2.png) no-repeat -28px -155px;}
+.controlBox .love:hover{background-position:0 -241px;}
+/* E 喜欢 */
+
+/* S 声音控制 */
+.controlBox .staticvolume{position:relative;z-index:13;margin:21px 22px 0 0;width:20px;height:16px;background:url(../img/play/icon.png) no-repeat -263px -113px;}
+.controlBox .staticvolume:hover{background-position:-263px -129px}
+.controlBox .staticvolume_none{position:relative;z-index:13;margin:21px 22px 0 0;width:20px;height:16px;background:url(../img/play/icon.png) no-repeat -309px -129px;}
+.controlBox .staticvolume_none:hover{background-position:-309px -113px;}
+
+.controlBox .soundBox{position: absolute;top: -145px;left: 25px;width: 40px;height: 138px;background: url(../img/play/volumeBg.png);display: none;}
+.controlBox .soundBox .soundLine{position:relative;top:15px;left:18px;width:4px;height:100px;background:url(../img/play/prograssBg.png) repeat;cursor: pointer;}
+.controlBox .soundBox .soundLine .volumeLine{position:absolute;bottom:0;width:4px;height:100px;background:#ffcd2d;}
+.controlBox .soundBox .soundLine .volumeBtn{position:absolute;left:-3px;width:10px;height:10px;background:url(../img/play/icon.png) 0 -128px;}
+/* E 声音控制 */
+
+/* S 循环控制 */
+.controlBox .loop{background:url(../img/play/icon.png) no-repeat -15px -172px;position:relative;float:left;display:block;margin:18px 19px 0 0;width:28px;height:20px}
+.controlBox .loop:hover{background-position:-44px -172px}
+.controlBox .loop_one{background:url(../img/play/icon.png) no-repeat -15px -142px;position:relative;float:left;display:block;margin:18px 19px 0 0;width:28px;height:20px}
+.controlBox .loop_one:hover{background-position:-44px -142px}
+/* E 循环控制 */
+
+/* S K歌 */
+.controlBox .kSong{float:left;display:block;display:inline;margin:19px 26px 0 0;width:17px;height:19px;background:url(../img/play/icon.png) no-repeat -24px -38px;}
+.controlBox .kSong:hover{background-position:-24px -63px}
+/* E K歌 */
+
+/* S 控制显示正在播放列表 */
+.controlBox .menu{float:left;display:inline;margin:19px 43px 0 0;width:20px;height:18px;background:url(../img/play/icon.png) no-repeat -71px -38px;cursor:pointer}
+.controlBox .menu:hover{background-position:-71px -63px}
+/* E 控制显示正在播放列表 */
+
+/* S 下载 */
+.controlBox .down{float:left;display:block;display:inline;margin:17px 23px 0 0;width:20px;height:21px;background:url(../img/play/icon.png) no-repeat -242px -113px}
+.controlBox .down:hover{background-position:-242px -137px}
+/* E 下载 */
+
+/* S 分享 */
+.controlBox .share{position:relative;z-index:111;float:left;display:inline;margin:18px 24px 0 0;width:20px;height:20px;background:url(../img/play/icon.png) no-repeat -46px -38px;cursor:pointer}
+.controlBox .share:hover{background-position:-46px -63px}
+.shareBox{position:absolute;top:-81px;left:-60px;display:none;height:83px;background:url(../img/play/jiao.png) no-repeat center 50px}
+.sharecontent{width:138px;height:50px;background:#000}
+.sharecontent a{float:left;margin:16px 0 0 8px;width:18px;height:18px;background:url(../img/play/icon.png) no-repeat}
+.sharecontent .new_sina{background-position:-219px -196px}
+.sharecontent .new_qzone{background-position:-242px -196px}
+.sharecontent .new_tqq{background-position:-265px -196px}
+.sharecontent .new_douban{background-position:-288px -196px}
+.sharecontent .new_renren{background-position:-311px -196px}
+.new_sina:hover{background-position:-219px -216px}
+.new_qzone:hover{background-position:-242px -216px}
+.new_tqq:hover{background-position:-265px -216px}
+.new_douban:hover{background-position:-288px -216px}
+.new_renren:hover{background-position:-311px -216px}
+/* E 分享 */
+
+/* S 二维码 */
+.controlBox .ewm{position:relative;z-index:111;float:left;display:inline;margin-top:18px;width:19px;height:19px;background:url(../img/play/icon.png) no-repeat 0 -38px;cursor:pointer}
+.controlBox .ewm:hover{background-position:0 -63px}
+.ewmBox{position:absolute;top:-185px;left:-68px;display:none;height:162px;background:url(../img/play/jiao.png) no-repeat bottom}
+.ewmCon{padding:5px;background:#000}
+/* E 二维码 */
+
+/* E 播放音乐控制台 */
+/* E 播放器 */
+
+/* S 底部 */
+.musicWarp .mw_footer{}
+/* E 底部 */

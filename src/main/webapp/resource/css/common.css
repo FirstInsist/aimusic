@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+body{"Microsoft YaHei","微软雅黑",'\65B0\5B8B\4F53','\5B8B\4F53',Verdana;font-size: 12px;}
+a{text-decoration: none;}
+ol,ul,li{list-style: none;}
+img{border:0;}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+.active{color:#003535;}
+.current{color: #064246;}
+.w1000{width: 1000px;}
+.hide{display: none;}
+.clearfix:after{clear:both;display:block;content:""}
+.clearfix{zoom:1}
+.opacity30{opacity:0.3;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity:0.3}
+.opacity40{opacity:0.4;filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4}
+.opacity50{opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5}
+.opacity70{opacity:0.7;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity:0.7}
+.opacity80{opacity:0.8;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8}
+.opacity90{opacity:0.9;filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity:0.9}
+.opacity95{opacity:0.95;filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95}
